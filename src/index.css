@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.box{
+    @apply h-[200px] 
+}
+
+.slider-container{
+    @apply p-[5rem] bg-white h-[400px]
+}
+.slick-slide div{
+    @apply m-2
+}
+
+.slick-prev:before, .slick-next:before{
+    @apply text-[#00df9a] !important
+}
